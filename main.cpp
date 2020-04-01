@@ -34,7 +34,7 @@ int main(){
   while(1){
     
     for(i = 0;i <=sample;i++){
-        Aout = 0.5 + 0.5*sin(i*f*3.14159/sample/4);
+        Aout = 0.5 + 0.5*sin(2*3.14159*f*i/sample/4);
     }
     
     int f1 = f/100;
